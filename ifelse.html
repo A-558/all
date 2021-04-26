@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            .main{
+                background: linear-gradient(45deg ,black,black);
+               max-width: 20%;
+               padding: 100px;
+               margin-left: 30%;
+               margin-top: 10%;
+               box-shadow: 0 15px 15px rgba(0, 0, 0, 1);
+               border-radius: 10%;
+               color: #fff;
+            }
+            .cl button{
+                color: #fff;
+                text-align: center;
+                background-color: black;
+            }
+            .cl button:hover {
+                cursor: pointer;
+                background: linear-gradient(45deg , white, orange);
+                border-radius: 20%;
+                color: black;
+
+            }
+        </style>
+    </head>
+    <body style="background: linear-gradient(45deg , blue ,yellow);">
+        <div class="main">
+            <h2 style="text-align: center;">EVEN OR ODD</h2>
+            <form onsubmit=" return eo()">
+         <div>
+            <label style="color: #fff;" > Enter a Number </label><br>
+            <input type="text" id="text1" placeholder="whole number" required>
+        </div><br>
+        <div class="cl">
+            <button> check</button>
+        </div><br>
+        
+        <div>
+            <label>Result</label><br>
+            <input type="text" id="result" disabled>
+        </div><br>
+        <div>
+            <script src="./ifelse.js"></script>
+        </div>
+    </form>
+        </div>
+    </body>
+</html>
